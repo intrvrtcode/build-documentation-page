@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Documentation Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav id="navbar">
+    <header><img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="python-logo"/>Python Documentation</header>
+    <ul>
+      <li><a class="nav-link" href="#what_is_python?">What is Python?</a></li>
+      <li><a class="nav-link" href="#what_can_python_do?">What can Python do?</a></li>
+      <li><a class="nav-link" href="#python_indentation">Python Indentation</a></li>
+      <li><a class="nav-link" href="#python_variables">Python Variables</a></li>
+      <li><a class="nav-link" href="#comments">Comments</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section id="what_is_python?" class="main-section">
+      <header>What is Python?</header>
+      <hr>
+      <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+      <p>It is used for:</p>
+      <ul>
+        <li>web development (server-side),</li>
+        <li>software development,</li>
+        <li>mathematics,</li>
+        <li>system scripting.</li>
+      </ul>
+    </section>
+    <section id="what_can_python_do?" class="main-section">
+      <header>What can Python do?</header>
+      <hr>
+      <ul>
+        <li>Python can be used on a server to create web applications.</li>
+        <li>Python can be used alongside software to create workflows.</li>
+        <li>Python can connect to database systems. It can also read and modify files.</li>
+        <li>Python can be used to handle big data and perform complex mathematics.</li>
+        <li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+      </ul>
+    </section>
+    <section id="python_indentation" class="main-section">
+      <header>Python Indentation</header>
+      <hr>
+      <p>Indentation refers to the spaces at the beginning of a code line.
+        Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.</p>
+      <p>Python uses indentation to indicate a block of code.</p>
+      <h4>Example</h4>
+      <code class="green">
+        if 5 > 2:
+          print("Five is greater than two!")
+      </code>
+      <p>Python will give you an error if you skip the indentation:</p>
+      <code class="red">
+        if 5 > 2:
+        print("Five is greater than two!")
+      </code>
+    </section>
+    <section id="python_variables" class="main-section">
+      <header>Python Variables</header>
+      <hr>
+      <p>In Python, variables are created when you assign a value to it:
+      </p>
+      <h4>Example</h4>
+      <p>Variables in Python:</p>
+      <code class="gray">
+        x = 5
+        y = "Hello, World!"
+      </code>
+    </section>
+    <section id="comments" class="main-section">
+      <header>Comments</header>
+      <hr>
+      <p>Python has commenting capability for the purpose of in-code documentation.</p>
+      <p>Comments start with a #, and Python will render the rest of the line as a comment:</p>
+      <h4>Example</h4>
+      <p>Comments in Python:</p>
+      <code class="gray">
+        #This is a comment.
+        print("Hello, World!")
+      </code>
+      <p>Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it:</p>
+      <h4>Example</h4>
+      <p>Multi Line Comments in python:</p>
+      <code class="gray">
+        """
+        This is a comment
+        written in
+        more than just one line
+        """
+        print("Hello, World!")
+      </code>
+    </section>
+  </main>
+  <div id="arrow-up"><a href="#navbar">^</a></div>
+</body>
+
+</html>
